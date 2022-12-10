@@ -1,1 +1,5 @@
-www.madihao.com
+$ dig WWW.MADIHAO.COM +nostats +nocomments +nocmd
+    > ;WWW.MADIHAO.COM.                    IN      A
+    > WWW.MADIHAO.COM.             3592    IN      CNAME   codegavai.github.io.
+    > codegavai.github.io.      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+    > GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
